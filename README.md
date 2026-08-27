@@ -42,8 +42,6 @@ Since 2012, this scheme has provided free coaching, boarding, lodging, and acade
 │   ├── style.css                      # Global and component styles
 │   └── [assets]                       # Logo images, icons, and site graphics
 │
-├── internship_report.pdf / .docx      # Comprehensive internship report and project documentation
-├── internship_report.big_image.png    # Copy of the Internship Completion Certificate
 └── README.md                          # Project documentation
 ```
 
