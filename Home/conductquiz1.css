@@ -1,0 +1,125 @@
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+.quiz-container {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 90%;
+    max-width: 700px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.quiz-container:hover {
+    transform: translateY(-5px);
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #2c3e50;
+}
+
+.question-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.question-number {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 1em;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.question-number:hover {
+    background: #2980b9;
+    transform: scale(1.1);
+}
+
+.quiz-content {
+    margin-bottom: 20px;
+}
+
+.question {
+    display: none;
+}
+
+.question.active {
+    display: block;
+}
+
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-size: 1em;
+}
+
+button:hover {
+    background: #2980b9;
+}
+
+button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+.results {
+    margin-top: 20px;
+    padding: 20px;
+    background: #ecf0f1;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.results h2 {
+    margin: 0 0 10px;
+    color: #27ae60;
+}
+
+.results p {
+    font-size: 1.5em;
+    color: #2c3e50;
+}

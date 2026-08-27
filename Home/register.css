@@ -1,0 +1,182 @@
+body {
+    background-color: rgb(0, 0, 30);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 54);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(130, 130, 190);
+    font-size: 1.01rem;
+}
+
+main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 60px 84px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 3rem;
+}
+
+.rightSection img {
+    width: 130%;
+}
+
+.purple {
+    color: rgb(211, 110, 211);
+}
+
+#element {
+    color: rgb(211, 110, 211);
+}
+.gate {
+    height: 400px;
+    width: 350px;
+    padding-left: 37%;
+
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 100vh;
+}
+
+
+.secondSection h3 {
+    padding: 20px 10px 10px 100px;
+    font-size: 2rem;
+
+    color: rgb(211, 110, 211);
+
+}
+
+.secondSection span {
+    font-size: 1rem;
+    padding: 20px 10px 10px 100px;
+    color: rgb(192, 24, 116);
+    text-align: center;
+
+}
+
+.secondSection h4 {
+    font-size: 1rem;
+    padding: 20px 10px 10px 100px;
+    color: rgb(76, 29, 120);
+
+}
+
+.thirdSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 30vh;
+}
+
+.thirdSection h3 {
+    padding: 20px 10px 10px 100px;
+    font-size: 2rem;
+
+    color: rgb(211, 110, 211);
+}
+
+.thirdSection h4 {
+    font-size: 1rem;
+    padding: 20px 10px 10px 100px;
+    color: rgb(76, 29, 120);
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.quiz-card {
+    background: rgb(20, 14, 14);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+    transition: transform 0.3s;
+}
+
+.quiz-card:hover {
+    transform: translateY(-5px);
+}
+
+.quiz-card h2 {
+    margin: 0 0 10px;
+}
+
+.quiz-card p {
+    margin: 0 0 20px;
+    color: #666;
+}
+
+.quiz-btn {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background0.3s;
+}
+
+.quiz-btn:hover {
+    background: #2980b9;
+}
+
+@media (max-width: 600px) {
+    .quiz-card {
+        width: 90%;
+    }
+}
